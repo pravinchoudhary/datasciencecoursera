@@ -1,5 +1,5 @@
 ## download the input data file
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "./projectDataset.zip")
+## download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "./projectDataset.zip")
 
 ## Read train and test subject/X/y data files
 read.table("./UCI HAR Datasettrain/subject_train.txt")
